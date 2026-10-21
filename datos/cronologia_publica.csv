@@ -1,0 +1,58 @@
+﻿id,casos,fecha_hora_literal,tipo,sintesis,grado_vinculo,agrupacion_documental,referencias_internas
+EV-001,FD-059,2026-10-07T11:13:47,Reporte,Bienvenida automática en medio de una conversación; proveedor anuncia revisión.,Directa,G01-016,G01-016 ; G01-017
+EV-002,FD-033,2026-10-07T11:17:28,Propuesta,Se plantea registrar transferencias y cambios de reglas; no acredita implementación.,Contextual,G01-021,G01-021 ; G01-023
+EV-003,FD-011,2026-10-07T17:02:43,Reporte,Chats del 29/09 siguen abiertos; se solicita cierre por inactividad.,Directa,G01-032,G01-032 ; G01-033
+EV-004,FD-038 ; FD-037 ; FD-026 ; FD-039,2026-10-09T10:14:44,Reporte,"Cuatro pendientes expresos: filtro de etiquetas, palabras clave, transferencia masiva y mensajes ocultos.",Directa,G01-034,G01-034
+EV-005,FD-038 ; FD-037 ; FD-026 ; FD-039,2026-10-09T10:21:14,Corrección declarada,"El proveedor declara solucionado el conjunto anterior, sin prueba funcional por caso.",Contextual,G01-037,G01-037
+EV-006,FD-014 ; FD-018 ; FD-023 ; FD-025,2026-10-09T13:25:23,Seguimiento,Referencia a números del archivo enviado ese día; asociación provisional porque el adjunto no está disponible.,Contextual,G01-054,G01-054
+EV-007,FD-038,2026-10-09T13:26:24,Persistencia,El filtro sigue fallando después del anuncio general de solución. No hay cierre validado entre ambos reportes.,Directa,G01-055,G01-055
+EV-008,FD-058,2026-10-09T13:26:31,Reporte,Chats nuevos sin atender llegan a Espera. Primer reporte explícito en estos exportados.,Directa,ESPERA-09OCT,G02-007
+EV-009,FD-038,2026-10-09T14:12:11,Corrección declarada,Proveedor anuncia ajuste de etiquetas/filtro y solicita actualizar la página.,Directa,G01-062,G01-062 ; G01-063 ; G01-064
+EV-010,FD-038,2026-10-09T15:12:53,Aceptación general,Usuario responde que todo está en orden; no describe una prueba funcional del filtro.,Contextual,G01-067,G01-067
+EV-011,FD-014,2026-10-09T15:12:53,Definición,Punto 14 se deja para fase 2; no constituye solución técnica.,Directa,G01-067,G01-067
+EV-012,FD-056,2026-10-09T15:14:16,Configuración,"Se indica campo/código de campaña; el usuario dice que lo probará, sin resultado documentado.",Directa,G01-068,G01-068 ; G01-069 ; G01-071
+EV-013,FD-058,2026-10-09T15:21:31,Escalamiento,El caso de una asesora se comunica al proveedor; mismo episodio que G02-007.,Directa,ESPERA-09OCT,G01-073 ; G01-075
+EV-014,FD-058,2026-10-09T15:45:26,Respuesta proveedor,El proveedor considera que no existe un bug y explica distribución desde Home; no cierra el reporte del usuario.,Directa,ESPERA-09OCT,G01-077
+EV-015,FD-044,2026-10-10T10:22:33,Reporte,Una asesora informa chats de otros asesores; otro asesor corrobora el síntoma.,Directa,OTROS-10OCT,G02-009 ; G02-011
+EV-016,FD-058,2026-10-10T11:17:36,Seguimiento,"Se mencionan mensajes sin responder; el contexto también trata pertenencia de chats, por lo que la asociación no es concluyente.",Contextual,G02-012,G02-012 ; G02-013
+EV-017,FD-044,2026-10-10T11:23:59,Escalamiento anunciado,El responsable interno anuncia que informará al proveedor. Esto no prueba envío efectivo al proveedor ese día.,Directa,OTROS-10OCT,G02-015
+EV-018,FD-058 ; FD-044 ; FD-011,2026-10-12T17:46:13,Reporte,"Tres síntomas: nuevos chats en Espera, chats ajenos en Espera y acumulación de conversaciones sin cierre.",Directa,G01-083,G01-083
+EV-019,FD-033,2026-10-12T17:59:41,Propuesta,Proveedor plantea identificar quién transfirió el chat; no acredita despliegue.,Directa,G01-085,G01-085
+EV-020,FD-011,2026-10-12T18:00:57,Corrección declarada,"Proveedor informa caída y restitución del cierre automático; horario referido, no medición independiente.",Directa,G01-086,G01-086
+EV-021,FD-058,2026-10-13T09:39:16,Reporte,Se reportan chats transferidos que permanecen en Espera.,Directa,ESPERA-13OCT,G02-031
+EV-022,,2026-10-13T10:26:12,Por vincular,U01 · Página no carga / aviso de conexión. Proveedor atribuye a memoria del equipo. No equiparar automáticamente con caída de administrador del 17/10.,Directa,G01-093,G01-093 ; G01-095 ; G01-096 ; G01-097 ; G01-098 ; G01-099
+EV-023,FD-059 ; FD-049,2026-10-13T11:04:41,Reporte,Se reporta bot después del asesor y conversación incompleta frente al teléfono; capturas omitidas.,Directa,G01-100,G01-100 ; G01-101 ; G01-102 ; G01-103
+EV-024,FD-059,2026-10-13T11:06:32,Explicación proveedor,Proveedor atribuye bienvenida tardía a cambios de Meta. Causa no verificada y sin cierre demostrado.,Directa,G01-105,G01-105 ; G01-106
+EV-025,FD-065,2026-10-13T13:03:34,Solicitud,Se solicita un rol de supervisor con acceso limitado a sus asesores.,Directa,G01-124,G01-124 ; G01-125
+EV-026,FD-058,2026-10-13T13:11:51,Escalamiento,Reporte reenviado entre ambos grupos; se conserva una sola agrupación documental.,Directa,ESPERA-13OCT,G01-127 ; G01-128 ; G02-034
+EV-027,FD-065,2026-10-13T15:21:55,Implementación declarada,Se anuncian cuentas creadas; no verifica que la restricción de permisos esté implementada.,Directa,G01-130,G01-130 ; G01-131
+EV-028,FD-042,2026-10-13T17:47:29,Adjunto faltante,Se envió Historial_Conexiones_Mejorado.xlsx. El exportado solo conserva el marcador de documento omitido.,Directa,G01-140,G01-140
+EV-029,FD-060,2026-10-14T09:39:00,Reporte,Un asesor informa que no recibe mensajes.,Directa,RECEPCION-14OCT,G02-037
+EV-030,FD-060,2026-10-14T09:55:10,Escalamiento,Un asesor y otro asesor sin mensajes; se consulta si el límite 8/6 influye. Relación causal por comprobar.,Directa,RECEPCION-14OCT,G01-141 ; G01-142
+EV-031,FD-058,2026-10-14T09:58:02,Reporte,Mensajes asignados siguen llegando a Espera.,Directa,G02-051,G02-051
+EV-032,FD-049,2026-10-14T11:06:00,Persistencia,Se informa otro caso de mensajes incompletos. Usuario creía que ya estaba corregido; el proveedor luego dice que la actualización no se había aplicado.,Directa,G01-143,G01-143 ; G01-148 ; G01-149
+EV-033,FD-060,2026-10-14T12:12:05,Alternativa temporal,Proveedor indica desactivar y activar; no se documenta validación de cierre.,Directa,RECEPCION-14OCT,G01-152
+EV-034,FD-049,2026-10-14T12:14:10,Promesa de solución,Proveedor indica actualización pendiente y promete resolver. No equivale a una corrección realizada.,Contextual,G01-153,G01-153 ; G01-157 ; G01-159
+EV-035,FD-054,2026-10-14T12:15:16,Reporte,Se informa que hay conversaciones que no aparecen en el CRM; no se precisa si son clientes que regresan.,Contextual,G01-158,G01-158
+EV-036,,2026-10-15T10:27:16,Por vincular,U05 · una asesora reporta error de envío/exclamación el 15/10. Se sugiere reintentar y responde gracias. Sin captura no se puede identificar causa ni cierre.,Directa,G02-055,G02-055 ; G02-057 ; G02-059 ; G02-060 ; G02-061
+EV-037,,2026-10-15T13:08:53,Por vincular,U02 · un supervisor no puede iniciar sesión el 15/10. Respuesta posterior contiene credenciales y no se reproduce en esta selección.,Directa,G01-163,G01-163
+EV-038,FD-053,2026-10-16T10:35:22,Reporte,"Una asesora reporta un fallo de envío; el traslado al grupo de soporte aporta después contexto de ventana/origen. Asociación contextual, no síntoma explícito en la primera captura.",Contextual,ORIGEN-16OCT-A,G02-067 ; G02-069 ; G02-071 ; G02-074 ; G01-169
+EV-039,FD-053,2026-10-16T11:10:16,Reporte,Proveedor menciona ventana de 24 horas; usuario precisa que faltan reloj y plataforma para identificarla. Promesa de incorporarlos.,Directa,ORIGEN-16OCT-A,G01-174 ; G01-173 ; G01-175
+EV-040,FD-053,2026-10-16T11:47:52,Reporte,Un asesor reporta que no aparece información de procedencia del lead.,Directa,ORIGEN-16OCT-B,G02-076
+EV-041,FD-053,2026-10-16T11:50:57,Escalamiento,"Caso de un asesor sobre información de origen, trasladado al proveedor.",Directa,ORIGEN-16OCT-B,G01-176 ; G01-177
+EV-042,,2026-10-16T11:56:22,Por vincular,U06 · Mensaje sin primera respuesta automática. Puede tratarse de activación/configuración; no basta para unirlo con bienvenida tardía ni fallo de palabras clave.,Directa,G02-077,G02-077 ; G02-079
+EV-043,FD-054,2026-10-16T12:06:20,Reporte,"Cliente que regresa, asignado desde Home, no aparece en la bandeja.",Directa,G01-180,G01-180 ; G01-183 ; G01-184
+EV-044,FD-054,2026-10-16T12:21:05,Propuesta,Proveedor plantea ampliar búsqueda de tres días a un mes. No consta despliegue ni resultado de prueba.,Directa,G01-186,G01-186 ; G01-187
+EV-045,FD-053,2026-10-16T16:33:14,Seguimiento,Nuevo pedido de ayuda con captura omitida; supervisor explica ventana orgánica de 24 horas. Sin prueba independiente de esa regla.,Contextual,G02-080,G02-080 ; G02-086
+EV-046,FD-063,2026-10-17T10:28:40,Reporte,"Asesora informa que no puede ingresar; posible antecedente del caso de una asesora, sin identificación explícita completa.",Contextual,ACCESO-17OCT,G02-088 ; G02-089
+EV-047,FD-063,2026-10-17T10:32:30,Reporte,No se ve conexión de usuarios y se reportan fallos de acceso.,Directa,ACCESO-17OCT,G01-188 ; G01-189 ; G01-191
+EV-048,FD-063,2026-10-17T11:30:16,Corrección declarada,Respuesta breve «ya puede»; no identifica qué componente quedó operativo.,Contextual,ACCESO-17OCT,G01-194
+EV-049,FD-063,2026-10-17T11:48:41,Persistencia,Chats de asesores quedan en blanco dentro de la misma secuencia de caída.,Directa,ACCESO-17OCT,G01-197 ; G01-198
+EV-050,FD-063,2026-10-17T11:48:59,Corrección declarada,Proveedor informa actualización/reversión de reglas y reactivación de administrador. Usuario dice que revisará; no consta aceptación final.,Directa,ACCESO-17OCT,G01-199 ; G01-200 ; G01-203 ; G01-204 ; G01-205
+EV-051,FD-054,2026-10-17T12:29:14,Reporte,Otro cliente que regresa es transferido y no aparece en la bandeja; revisión pendiente.,Directa,G01-208,G01-208 ; G01-210
+EV-052,FD-018 ; FD-054,2026-10-17T12:33:15,Alternativa temporal,"Un asesor responde desde WhatsApp físico ante el caso de recepción; evidencia de uso alternativo, no nueva incidencia independiente.",Directa,G01-209,G01-209
+EV-053,FD-058,2026-10-20T09:47:16,Reporte,Supervisor vuelve a señalar incidencia de mensajes que llegan directamente a Espera. Último reporte explícito de FD-058 en los exportados.,Directa,G02-102,G02-102
+EV-054,,2026-10-20T17:04:01,Por vincular,"U07 · Encuesta sobre recepción de un lead, sin resultados exportados. No prueba ausencia de mensajes ni permite vincularlo a TikTok.",Directa,G02-103,G02-103
+EV-055,,2026-10-20T18:03:23,Por vincular,U03 · Pérdida de mensajes y referencia a una incidencia anterior. Posibles FD-049/054/068; no se identifica canal ni mecanismo. Proveedor indica que trabaja en ello.,Directa,G01-227,G01-227 ; G01-228
+EV-056,,2026-10-21T11:31:32,Por vincular,"U04 · Clientes llegan en blanco el 21/10, con antecedente de contacto del 22/08. Posibles FD-049/054; la captura no está incluida. No retrofechar la incidencia a agosto.",Directa,G01-245,G01-245 ; G01-246 ; G01-247
+EV-057,FD-032 ; FD-054,2026-10-21T11:44:02,Definición,"Se describe regla deseada de retorno por siete días y traslado a posventa. Es una definición comunicada, no evidencia de funcionamiento.",Directa,G01-248,G01-248

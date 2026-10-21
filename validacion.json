@@ -1,0 +1,18 @@
+{
+  "fecha": "2026-10-21",
+  "alcance": "Copia pública depurada; comparación con datos internos y revisión de campos publicados. No es prueba funcional del CRM.",
+  "controles": {
+    "68_ids_preservados": true,
+    "57_hitos_preservados": true,
+    "39_en_atencion": true,
+    "29_cerrados_segun_fuente": true,
+    "estados_prioridades_fechas_preservados": true,
+    "22_casos_vinculados": true,
+    "7_asuntos_sin_vinculo": true,
+    "fechas_eventos_preservadas": true,
+    "referencias_y_agrupaciones_preservadas": true,
+    "sin_extractos_ni_fuentes_originales": true,
+    "sin_nombres_personales_conocidos": true,
+    "sin_contactos_urls_internas_rutas_locales": true
+  }
+}

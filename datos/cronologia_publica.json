@@ -1,0 +1,860 @@
+{
+  "corte": "2026-10-21",
+  "hora": "Literal del exportado; zona horaria no declarada.",
+  "eventos": [
+    {
+      "id": "EV-001",
+      "casos": [
+        "FD-059"
+      ],
+      "fecha_hora_literal": "2026-10-07T11:13:47",
+      "tipo": "Reporte",
+      "sintesis": "Bienvenida automática en medio de una conversación; proveedor anuncia revisión.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-016",
+      "referencias_internas": [
+        "G01-016",
+        "G01-017"
+      ]
+    },
+    {
+      "id": "EV-002",
+      "casos": [
+        "FD-033"
+      ],
+      "fecha_hora_literal": "2026-10-07T11:17:28",
+      "tipo": "Propuesta",
+      "sintesis": "Se plantea registrar transferencias y cambios de reglas; no acredita implementación.",
+      "grado_vinculo": "Contextual",
+      "agrupacion_documental": "G01-021",
+      "referencias_internas": [
+        "G01-021",
+        "G01-023"
+      ]
+    },
+    {
+      "id": "EV-003",
+      "casos": [
+        "FD-011"
+      ],
+      "fecha_hora_literal": "2026-10-07T17:02:43",
+      "tipo": "Reporte",
+      "sintesis": "Chats del 29/09 siguen abiertos; se solicita cierre por inactividad.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-032",
+      "referencias_internas": [
+        "G01-032",
+        "G01-033"
+      ]
+    },
+    {
+      "id": "EV-004",
+      "casos": [
+        "FD-038",
+        "FD-037",
+        "FD-026",
+        "FD-039"
+      ],
+      "fecha_hora_literal": "2026-10-09T10:14:44",
+      "tipo": "Reporte",
+      "sintesis": "Cuatro pendientes expresos: filtro de etiquetas, palabras clave, transferencia masiva y mensajes ocultos.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-034",
+      "referencias_internas": [
+        "G01-034"
+      ]
+    },
+    {
+      "id": "EV-005",
+      "casos": [
+        "FD-038",
+        "FD-037",
+        "FD-026",
+        "FD-039"
+      ],
+      "fecha_hora_literal": "2026-10-09T10:21:14",
+      "tipo": "Corrección declarada",
+      "sintesis": "El proveedor declara solucionado el conjunto anterior, sin prueba funcional por caso.",
+      "grado_vinculo": "Contextual",
+      "agrupacion_documental": "G01-037",
+      "referencias_internas": [
+        "G01-037"
+      ]
+    },
+    {
+      "id": "EV-006",
+      "casos": [
+        "FD-014",
+        "FD-018",
+        "FD-023",
+        "FD-025"
+      ],
+      "fecha_hora_literal": "2026-10-09T13:25:23",
+      "tipo": "Seguimiento",
+      "sintesis": "Referencia a números del archivo enviado ese día; asociación provisional porque el adjunto no está disponible.",
+      "grado_vinculo": "Contextual",
+      "agrupacion_documental": "G01-054",
+      "referencias_internas": [
+        "G01-054"
+      ]
+    },
+    {
+      "id": "EV-007",
+      "casos": [
+        "FD-038"
+      ],
+      "fecha_hora_literal": "2026-10-09T13:26:24",
+      "tipo": "Persistencia",
+      "sintesis": "El filtro sigue fallando después del anuncio general de solución. No hay cierre validado entre ambos reportes.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-055",
+      "referencias_internas": [
+        "G01-055"
+      ]
+    },
+    {
+      "id": "EV-008",
+      "casos": [
+        "FD-058"
+      ],
+      "fecha_hora_literal": "2026-10-09T13:26:31",
+      "tipo": "Reporte",
+      "sintesis": "Chats nuevos sin atender llegan a Espera. Primer reporte explícito en estos exportados.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "ESPERA-09OCT",
+      "referencias_internas": [
+        "G02-007"
+      ]
+    },
+    {
+      "id": "EV-009",
+      "casos": [
+        "FD-038"
+      ],
+      "fecha_hora_literal": "2026-10-09T14:12:11",
+      "tipo": "Corrección declarada",
+      "sintesis": "Proveedor anuncia ajuste de etiquetas/filtro y solicita actualizar la página.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-062",
+      "referencias_internas": [
+        "G01-062",
+        "G01-063",
+        "G01-064"
+      ]
+    },
+    {
+      "id": "EV-010",
+      "casos": [
+        "FD-038"
+      ],
+      "fecha_hora_literal": "2026-10-09T15:12:53",
+      "tipo": "Aceptación general",
+      "sintesis": "Usuario responde que todo está en orden; no describe una prueba funcional del filtro.",
+      "grado_vinculo": "Contextual",
+      "agrupacion_documental": "G01-067",
+      "referencias_internas": [
+        "G01-067"
+      ]
+    },
+    {
+      "id": "EV-011",
+      "casos": [
+        "FD-014"
+      ],
+      "fecha_hora_literal": "2026-10-09T15:12:53",
+      "tipo": "Definición",
+      "sintesis": "Punto 14 se deja para fase 2; no constituye solución técnica.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-067",
+      "referencias_internas": [
+        "G01-067"
+      ]
+    },
+    {
+      "id": "EV-012",
+      "casos": [
+        "FD-056"
+      ],
+      "fecha_hora_literal": "2026-10-09T15:14:16",
+      "tipo": "Configuración",
+      "sintesis": "Se indica campo/código de campaña; el usuario dice que lo probará, sin resultado documentado.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-068",
+      "referencias_internas": [
+        "G01-068",
+        "G01-069",
+        "G01-071"
+      ]
+    },
+    {
+      "id": "EV-013",
+      "casos": [
+        "FD-058"
+      ],
+      "fecha_hora_literal": "2026-10-09T15:21:31",
+      "tipo": "Escalamiento",
+      "sintesis": "El caso de una asesora se comunica al proveedor; mismo episodio que G02-007.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "ESPERA-09OCT",
+      "referencias_internas": [
+        "G01-073",
+        "G01-075"
+      ]
+    },
+    {
+      "id": "EV-014",
+      "casos": [
+        "FD-058"
+      ],
+      "fecha_hora_literal": "2026-10-09T15:45:26",
+      "tipo": "Respuesta proveedor",
+      "sintesis": "El proveedor considera que no existe un bug y explica distribución desde Home; no cierra el reporte del usuario.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "ESPERA-09OCT",
+      "referencias_internas": [
+        "G01-077"
+      ]
+    },
+    {
+      "id": "EV-015",
+      "casos": [
+        "FD-044"
+      ],
+      "fecha_hora_literal": "2026-10-10T10:22:33",
+      "tipo": "Reporte",
+      "sintesis": "Una asesora informa chats de otros asesores; otro asesor corrobora el síntoma.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "OTROS-10OCT",
+      "referencias_internas": [
+        "G02-009",
+        "G02-011"
+      ]
+    },
+    {
+      "id": "EV-016",
+      "casos": [
+        "FD-058"
+      ],
+      "fecha_hora_literal": "2026-10-10T11:17:36",
+      "tipo": "Seguimiento",
+      "sintesis": "Se mencionan mensajes sin responder; el contexto también trata pertenencia de chats, por lo que la asociación no es concluyente.",
+      "grado_vinculo": "Contextual",
+      "agrupacion_documental": "G02-012",
+      "referencias_internas": [
+        "G02-012",
+        "G02-013"
+      ]
+    },
+    {
+      "id": "EV-017",
+      "casos": [
+        "FD-044"
+      ],
+      "fecha_hora_literal": "2026-10-10T11:23:59",
+      "tipo": "Escalamiento anunciado",
+      "sintesis": "El responsable interno anuncia que informará al proveedor. Esto no prueba envío efectivo al proveedor ese día.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "OTROS-10OCT",
+      "referencias_internas": [
+        "G02-015"
+      ]
+    },
+    {
+      "id": "EV-018",
+      "casos": [
+        "FD-058",
+        "FD-044",
+        "FD-011"
+      ],
+      "fecha_hora_literal": "2026-10-12T17:46:13",
+      "tipo": "Reporte",
+      "sintesis": "Tres síntomas: nuevos chats en Espera, chats ajenos en Espera y acumulación de conversaciones sin cierre.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-083",
+      "referencias_internas": [
+        "G01-083"
+      ]
+    },
+    {
+      "id": "EV-019",
+      "casos": [
+        "FD-033"
+      ],
+      "fecha_hora_literal": "2026-10-12T17:59:41",
+      "tipo": "Propuesta",
+      "sintesis": "Proveedor plantea identificar quién transfirió el chat; no acredita despliegue.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-085",
+      "referencias_internas": [
+        "G01-085"
+      ]
+    },
+    {
+      "id": "EV-020",
+      "casos": [
+        "FD-011"
+      ],
+      "fecha_hora_literal": "2026-10-12T18:00:57",
+      "tipo": "Corrección declarada",
+      "sintesis": "Proveedor informa caída y restitución del cierre automático; horario referido, no medición independiente.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-086",
+      "referencias_internas": [
+        "G01-086"
+      ]
+    },
+    {
+      "id": "EV-021",
+      "casos": [
+        "FD-058"
+      ],
+      "fecha_hora_literal": "2026-10-13T09:39:16",
+      "tipo": "Reporte",
+      "sintesis": "Se reportan chats transferidos que permanecen en Espera.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "ESPERA-13OCT",
+      "referencias_internas": [
+        "G02-031"
+      ]
+    },
+    {
+      "id": "EV-022",
+      "casos": [],
+      "fecha_hora_literal": "2026-10-13T10:26:12",
+      "tipo": "Por vincular",
+      "sintesis": "U01 · Página no carga / aviso de conexión. Proveedor atribuye a memoria del equipo. No equiparar automáticamente con caída de administrador del 17/10.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-093",
+      "referencias_internas": [
+        "G01-093",
+        "G01-095",
+        "G01-096",
+        "G01-097",
+        "G01-098",
+        "G01-099"
+      ]
+    },
+    {
+      "id": "EV-023",
+      "casos": [
+        "FD-059",
+        "FD-049"
+      ],
+      "fecha_hora_literal": "2026-10-13T11:04:41",
+      "tipo": "Reporte",
+      "sintesis": "Se reporta bot después del asesor y conversación incompleta frente al teléfono; capturas omitidas.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-100",
+      "referencias_internas": [
+        "G01-100",
+        "G01-101",
+        "G01-102",
+        "G01-103"
+      ]
+    },
+    {
+      "id": "EV-024",
+      "casos": [
+        "FD-059"
+      ],
+      "fecha_hora_literal": "2026-10-13T11:06:32",
+      "tipo": "Explicación proveedor",
+      "sintesis": "Proveedor atribuye bienvenida tardía a cambios de Meta. Causa no verificada y sin cierre demostrado.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-105",
+      "referencias_internas": [
+        "G01-105",
+        "G01-106"
+      ]
+    },
+    {
+      "id": "EV-025",
+      "casos": [
+        "FD-065"
+      ],
+      "fecha_hora_literal": "2026-10-13T13:03:34",
+      "tipo": "Solicitud",
+      "sintesis": "Se solicita un rol de supervisor con acceso limitado a sus asesores.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-124",
+      "referencias_internas": [
+        "G01-124",
+        "G01-125"
+      ]
+    },
+    {
+      "id": "EV-026",
+      "casos": [
+        "FD-058"
+      ],
+      "fecha_hora_literal": "2026-10-13T13:11:51",
+      "tipo": "Escalamiento",
+      "sintesis": "Reporte reenviado entre ambos grupos; se conserva una sola agrupación documental.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "ESPERA-13OCT",
+      "referencias_internas": [
+        "G01-127",
+        "G01-128",
+        "G02-034"
+      ]
+    },
+    {
+      "id": "EV-027",
+      "casos": [
+        "FD-065"
+      ],
+      "fecha_hora_literal": "2026-10-13T15:21:55",
+      "tipo": "Implementación declarada",
+      "sintesis": "Se anuncian cuentas creadas; no verifica que la restricción de permisos esté implementada.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-130",
+      "referencias_internas": [
+        "G01-130",
+        "G01-131"
+      ]
+    },
+    {
+      "id": "EV-028",
+      "casos": [
+        "FD-042"
+      ],
+      "fecha_hora_literal": "2026-10-13T17:47:29",
+      "tipo": "Adjunto faltante",
+      "sintesis": "Se envió Historial_Conexiones_Mejorado.xlsx. El exportado solo conserva el marcador de documento omitido.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-140",
+      "referencias_internas": [
+        "G01-140"
+      ]
+    },
+    {
+      "id": "EV-029",
+      "casos": [
+        "FD-060"
+      ],
+      "fecha_hora_literal": "2026-10-14T09:39:00",
+      "tipo": "Reporte",
+      "sintesis": "Un asesor informa que no recibe mensajes.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "RECEPCION-14OCT",
+      "referencias_internas": [
+        "G02-037"
+      ]
+    },
+    {
+      "id": "EV-030",
+      "casos": [
+        "FD-060"
+      ],
+      "fecha_hora_literal": "2026-10-14T09:55:10",
+      "tipo": "Escalamiento",
+      "sintesis": "Un asesor y otro asesor sin mensajes; se consulta si el límite 8/6 influye. Relación causal por comprobar.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "RECEPCION-14OCT",
+      "referencias_internas": [
+        "G01-141",
+        "G01-142"
+      ]
+    },
+    {
+      "id": "EV-031",
+      "casos": [
+        "FD-058"
+      ],
+      "fecha_hora_literal": "2026-10-14T09:58:02",
+      "tipo": "Reporte",
+      "sintesis": "Mensajes asignados siguen llegando a Espera.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G02-051",
+      "referencias_internas": [
+        "G02-051"
+      ]
+    },
+    {
+      "id": "EV-032",
+      "casos": [
+        "FD-049"
+      ],
+      "fecha_hora_literal": "2026-10-14T11:06:00",
+      "tipo": "Persistencia",
+      "sintesis": "Se informa otro caso de mensajes incompletos. Usuario creía que ya estaba corregido; el proveedor luego dice que la actualización no se había aplicado.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-143",
+      "referencias_internas": [
+        "G01-143",
+        "G01-148",
+        "G01-149"
+      ]
+    },
+    {
+      "id": "EV-033",
+      "casos": [
+        "FD-060"
+      ],
+      "fecha_hora_literal": "2026-10-14T12:12:05",
+      "tipo": "Alternativa temporal",
+      "sintesis": "Proveedor indica desactivar y activar; no se documenta validación de cierre.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "RECEPCION-14OCT",
+      "referencias_internas": [
+        "G01-152"
+      ]
+    },
+    {
+      "id": "EV-034",
+      "casos": [
+        "FD-049"
+      ],
+      "fecha_hora_literal": "2026-10-14T12:14:10",
+      "tipo": "Promesa de solución",
+      "sintesis": "Proveedor indica actualización pendiente y promete resolver. No equivale a una corrección realizada.",
+      "grado_vinculo": "Contextual",
+      "agrupacion_documental": "G01-153",
+      "referencias_internas": [
+        "G01-153",
+        "G01-157",
+        "G01-159"
+      ]
+    },
+    {
+      "id": "EV-035",
+      "casos": [
+        "FD-054"
+      ],
+      "fecha_hora_literal": "2026-10-14T12:15:16",
+      "tipo": "Reporte",
+      "sintesis": "Se informa que hay conversaciones que no aparecen en el CRM; no se precisa si son clientes que regresan.",
+      "grado_vinculo": "Contextual",
+      "agrupacion_documental": "G01-158",
+      "referencias_internas": [
+        "G01-158"
+      ]
+    },
+    {
+      "id": "EV-036",
+      "casos": [],
+      "fecha_hora_literal": "2026-10-15T10:27:16",
+      "tipo": "Por vincular",
+      "sintesis": "U05 · una asesora reporta error de envío/exclamación el 15/10. Se sugiere reintentar y responde gracias. Sin captura no se puede identificar causa ni cierre.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G02-055",
+      "referencias_internas": [
+        "G02-055",
+        "G02-057",
+        "G02-059",
+        "G02-060",
+        "G02-061"
+      ]
+    },
+    {
+      "id": "EV-037",
+      "casos": [],
+      "fecha_hora_literal": "2026-10-15T13:08:53",
+      "tipo": "Por vincular",
+      "sintesis": "U02 · un supervisor no puede iniciar sesión el 15/10. Respuesta posterior contiene credenciales y no se reproduce en esta selección.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-163",
+      "referencias_internas": [
+        "G01-163"
+      ]
+    },
+    {
+      "id": "EV-038",
+      "casos": [
+        "FD-053"
+      ],
+      "fecha_hora_literal": "2026-10-16T10:35:22",
+      "tipo": "Reporte",
+      "sintesis": "Una asesora reporta un fallo de envío; el traslado al grupo de soporte aporta después contexto de ventana/origen. Asociación contextual, no síntoma explícito en la primera captura.",
+      "grado_vinculo": "Contextual",
+      "agrupacion_documental": "ORIGEN-16OCT-A",
+      "referencias_internas": [
+        "G02-067",
+        "G02-069",
+        "G02-071",
+        "G02-074",
+        "G01-169"
+      ]
+    },
+    {
+      "id": "EV-039",
+      "casos": [
+        "FD-053"
+      ],
+      "fecha_hora_literal": "2026-10-16T11:10:16",
+      "tipo": "Reporte",
+      "sintesis": "Proveedor menciona ventana de 24 horas; usuario precisa que faltan reloj y plataforma para identificarla. Promesa de incorporarlos.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "ORIGEN-16OCT-A",
+      "referencias_internas": [
+        "G01-174",
+        "G01-173",
+        "G01-175"
+      ]
+    },
+    {
+      "id": "EV-040",
+      "casos": [
+        "FD-053"
+      ],
+      "fecha_hora_literal": "2026-10-16T11:47:52",
+      "tipo": "Reporte",
+      "sintesis": "Un asesor reporta que no aparece información de procedencia del lead.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "ORIGEN-16OCT-B",
+      "referencias_internas": [
+        "G02-076"
+      ]
+    },
+    {
+      "id": "EV-041",
+      "casos": [
+        "FD-053"
+      ],
+      "fecha_hora_literal": "2026-10-16T11:50:57",
+      "tipo": "Escalamiento",
+      "sintesis": "Caso de un asesor sobre información de origen, trasladado al proveedor.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "ORIGEN-16OCT-B",
+      "referencias_internas": [
+        "G01-176",
+        "G01-177"
+      ]
+    },
+    {
+      "id": "EV-042",
+      "casos": [],
+      "fecha_hora_literal": "2026-10-16T11:56:22",
+      "tipo": "Por vincular",
+      "sintesis": "U06 · Mensaje sin primera respuesta automática. Puede tratarse de activación/configuración; no basta para unirlo con bienvenida tardía ni fallo de palabras clave.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G02-077",
+      "referencias_internas": [
+        "G02-077",
+        "G02-079"
+      ]
+    },
+    {
+      "id": "EV-043",
+      "casos": [
+        "FD-054"
+      ],
+      "fecha_hora_literal": "2026-10-16T12:06:20",
+      "tipo": "Reporte",
+      "sintesis": "Cliente que regresa, asignado desde Home, no aparece en la bandeja.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-180",
+      "referencias_internas": [
+        "G01-180",
+        "G01-183",
+        "G01-184"
+      ]
+    },
+    {
+      "id": "EV-044",
+      "casos": [
+        "FD-054"
+      ],
+      "fecha_hora_literal": "2026-10-16T12:21:05",
+      "tipo": "Propuesta",
+      "sintesis": "Proveedor plantea ampliar búsqueda de tres días a un mes. No consta despliegue ni resultado de prueba.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-186",
+      "referencias_internas": [
+        "G01-186",
+        "G01-187"
+      ]
+    },
+    {
+      "id": "EV-045",
+      "casos": [
+        "FD-053"
+      ],
+      "fecha_hora_literal": "2026-10-16T16:33:14",
+      "tipo": "Seguimiento",
+      "sintesis": "Nuevo pedido de ayuda con captura omitida; supervisor explica ventana orgánica de 24 horas. Sin prueba independiente de esa regla.",
+      "grado_vinculo": "Contextual",
+      "agrupacion_documental": "G02-080",
+      "referencias_internas": [
+        "G02-080",
+        "G02-086"
+      ]
+    },
+    {
+      "id": "EV-046",
+      "casos": [
+        "FD-063"
+      ],
+      "fecha_hora_literal": "2026-10-17T10:28:40",
+      "tipo": "Reporte",
+      "sintesis": "Asesora informa que no puede ingresar; posible antecedente del caso de una asesora, sin identificación explícita completa.",
+      "grado_vinculo": "Contextual",
+      "agrupacion_documental": "ACCESO-17OCT",
+      "referencias_internas": [
+        "G02-088",
+        "G02-089"
+      ]
+    },
+    {
+      "id": "EV-047",
+      "casos": [
+        "FD-063"
+      ],
+      "fecha_hora_literal": "2026-10-17T10:32:30",
+      "tipo": "Reporte",
+      "sintesis": "No se ve conexión de usuarios y se reportan fallos de acceso.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "ACCESO-17OCT",
+      "referencias_internas": [
+        "G01-188",
+        "G01-189",
+        "G01-191"
+      ]
+    },
+    {
+      "id": "EV-048",
+      "casos": [
+        "FD-063"
+      ],
+      "fecha_hora_literal": "2026-10-17T11:30:16",
+      "tipo": "Corrección declarada",
+      "sintesis": "Respuesta breve «ya puede»; no identifica qué componente quedó operativo.",
+      "grado_vinculo": "Contextual",
+      "agrupacion_documental": "ACCESO-17OCT",
+      "referencias_internas": [
+        "G01-194"
+      ]
+    },
+    {
+      "id": "EV-049",
+      "casos": [
+        "FD-063"
+      ],
+      "fecha_hora_literal": "2026-10-17T11:48:41",
+      "tipo": "Persistencia",
+      "sintesis": "Chats de asesores quedan en blanco dentro de la misma secuencia de caída.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "ACCESO-17OCT",
+      "referencias_internas": [
+        "G01-197",
+        "G01-198"
+      ]
+    },
+    {
+      "id": "EV-050",
+      "casos": [
+        "FD-063"
+      ],
+      "fecha_hora_literal": "2026-10-17T11:48:59",
+      "tipo": "Corrección declarada",
+      "sintesis": "Proveedor informa actualización/reversión de reglas y reactivación de administrador. Usuario dice que revisará; no consta aceptación final.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "ACCESO-17OCT",
+      "referencias_internas": [
+        "G01-199",
+        "G01-200",
+        "G01-203",
+        "G01-204",
+        "G01-205"
+      ]
+    },
+    {
+      "id": "EV-051",
+      "casos": [
+        "FD-054"
+      ],
+      "fecha_hora_literal": "2026-10-17T12:29:14",
+      "tipo": "Reporte",
+      "sintesis": "Otro cliente que regresa es transferido y no aparece en la bandeja; revisión pendiente.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-208",
+      "referencias_internas": [
+        "G01-208",
+        "G01-210"
+      ]
+    },
+    {
+      "id": "EV-052",
+      "casos": [
+        "FD-018",
+        "FD-054"
+      ],
+      "fecha_hora_literal": "2026-10-17T12:33:15",
+      "tipo": "Alternativa temporal",
+      "sintesis": "Un asesor responde desde WhatsApp físico ante el caso de recepción; evidencia de uso alternativo, no nueva incidencia independiente.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-209",
+      "referencias_internas": [
+        "G01-209"
+      ]
+    },
+    {
+      "id": "EV-053",
+      "casos": [
+        "FD-058"
+      ],
+      "fecha_hora_literal": "2026-10-20T09:47:16",
+      "tipo": "Reporte",
+      "sintesis": "Supervisor vuelve a señalar incidencia de mensajes que llegan directamente a Espera. Último reporte explícito de FD-058 en los exportados.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G02-102",
+      "referencias_internas": [
+        "G02-102"
+      ]
+    },
+    {
+      "id": "EV-054",
+      "casos": [],
+      "fecha_hora_literal": "2026-10-20T17:04:01",
+      "tipo": "Por vincular",
+      "sintesis": "U07 · Encuesta sobre recepción de un lead, sin resultados exportados. No prueba ausencia de mensajes ni permite vincularlo a TikTok.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G02-103",
+      "referencias_internas": [
+        "G02-103"
+      ]
+    },
+    {
+      "id": "EV-055",
+      "casos": [],
+      "fecha_hora_literal": "2026-10-20T18:03:23",
+      "tipo": "Por vincular",
+      "sintesis": "U03 · Pérdida de mensajes y referencia a una incidencia anterior. Posibles FD-049/054/068; no se identifica canal ni mecanismo. Proveedor indica que trabaja en ello.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-227",
+      "referencias_internas": [
+        "G01-227",
+        "G01-228"
+      ]
+    },
+    {
+      "id": "EV-056",
+      "casos": [],
+      "fecha_hora_literal": "2026-10-21T11:31:32",
+      "tipo": "Por vincular",
+      "sintesis": "U04 · Clientes llegan en blanco el 21/10, con antecedente de contacto del 22/08. Posibles FD-049/054; la captura no está incluida. No retrofechar la incidencia a agosto.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-245",
+      "referencias_internas": [
+        "G01-245",
+        "G01-246",
+        "G01-247"
+      ]
+    },
+    {
+      "id": "EV-057",
+      "casos": [
+        "FD-032",
+        "FD-054"
+      ],
+      "fecha_hora_literal": "2026-10-21T11:44:02",
+      "tipo": "Definición",
+      "sintesis": "Se describe regla deseada de retorno por siete días y traslado a posventa. Es una definición comunicada, no evidencia de funcionamiento.",
+      "grado_vinculo": "Directa",
+      "agrupacion_documental": "G01-248",
+      "referencias_internas": [
+        "G01-248"
+      ]
+    }
+  ]
+}

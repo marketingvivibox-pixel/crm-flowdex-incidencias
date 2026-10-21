@@ -1,0 +1,21 @@
+# Fuentes internas y archivos que requieren revisión previa
+fuentes/
+evidencias/
+privado/
+work/
+node_modules/
+.env
+.env.*
+*.zip
+*.xlsx
+*.xls
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.pdf
+*chat*.txt
+*chat*.md
+chats_datos.json
+mapa_datos.json
+timeline_datos.json

@@ -1,0 +1,14 @@
+{
+  ".github/ISSUE_TEMPLATE/incidencia.md": "733fe3758dd700fa978cac71ceaa39da8d36f03a68882fdc3b01fa837cc7cd5b",
+  ".gitignore": "0d7c2d24857e2bd009943bb6ce0d2a1b60a433e1fa4863129690030dfe7b15dc",
+  "datos/cronologia_publica.csv": "d80fe8172b81e83f4229cfbf8bb26581461bbaca4b78930564cc85254138f761",
+  "datos/cronologia_publica.json": "f81b3359ed9339e6e5e4a802c3d04379fd9b5861b6701a7aaabfd4d49ee25c06",
+  "datos/mapa_publico.csv": "961c82446cc1c36844b3292f8c3aab6cfab8a2b7ab6bb399647193e0469fc613",
+  "datos/mapa_publico.json": "822b25e4203399a9cbae0ebf43bfdf288209664c327ed456963bda9ab038a519",
+  "docs/CRONOLOGIA.md": "a489ff11c23470c719040e59b392f1d793539c1f06900db3a719c7d8e7b98f58",
+  "docs/MAPA.md": "79b009415e967ba1fdd74fddf02d465c14c867be0754184b11fbe8c9f091089d",
+  "docs/METODOLOGIA.md": "41ff579205e53f5b0d5ee61b34eb676ea7999709b2a1b490009ab3182c44f8a1",
+  "docs/PUBLICACION.md": "76f6ad2b639b07eb944d8981d46f99d6a6c241faf43cb18ac5570c08746bb585",
+  "README.md": "9e28e2121d239b9c5ec4ab34cb9790b97f68a5d48390ef8f40d1a99eb7c9e9ad",
+  "validacion.json": "eb92e7ac30e7f7e118d53d1d166ccda025c8f8cc487bcb261122f9f66b38f36b"
+}
